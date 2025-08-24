@@ -6,15 +6,10 @@
 # Output:- Yes 
 # Explanation:- For A = 131, reverse(A) = reverse(131) = 131, which is the same as A. 
 
-A = int(input("Enter an integer A: "))
-original = abs(A)
-reverse = 0
-temp = original
-while temp > 0:
-	reverse = reverse * 10 + temp % 10
-	temp //= 10
-if original == reverse:
-	print("Yes")
-else:
-	print("No")
 
+text = input("Enter a word or number: ")
+
+if text == text[::-1]:
+    print(f"{text} is a palindrome.")
+else:
+    print(f"{text} is not a palindrome.")
