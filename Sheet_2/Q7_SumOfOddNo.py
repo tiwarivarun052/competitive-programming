@@ -5,11 +5,11 @@
 # Output:- 4 
 # Explanation:- For A = 4, Odd numbers 1 and 3 lie in the range [1, 4]. Sum = 1 + 3 = 4. 
 
-A = int(input("Enter an integer A: "))
+A = int(input("Enter an integer: "))
 total = 0
 i = 1
-while i <= A:
+while (i <= A):
 	total += i
 	i += 2
-print(f"Sum of odd numbers between 1 and {A} is {total}")
+print("Sum of odd numbers between is : ", total)
 

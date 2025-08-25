@@ -4,11 +4,11 @@
 # Output:- 6 
 # Explanation:- Even numbers between [1, 5] are (2, 4). 
 
-A = int(input("Enter an integer A: "))
+A = int(input("Enter an integer: "))
 total = 0
 i = 2
-while i <= A:
+while (i <= A):
 	total += i
 	i += 2
-print(f"Sum of even numbers between 1 and {A} is {total}")
+print("Sum of even numbers between is : ", total)
 

@@ -1,7 +1,6 @@
-# Write a program to input two numbers(A & B) from the user and print the maximum 
-# element among A & B. 
+# Write a program to input two numbers(A & B) from the user and print the maximum element among A & B. 
 
-A = float(input("Enter first number (A): "))
-B = float(input("Enter second number (B): "))
+A = float(input("Enter first number: "))
+B = float(input("Enter second number: "))
 maximum = max(A, B)
-print(f"The maximum of {A} and {B} is {maximum}.")
+print("The maximum is : ", maximum)

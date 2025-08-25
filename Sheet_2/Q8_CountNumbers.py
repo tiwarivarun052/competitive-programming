@@ -3,14 +3,15 @@
 # Output:- 5 
 # Explanation:- 10101 has 5 digits 
 
-N = int(input("Enter an integer N: "))
+N = int(input("Enter a number: "))
+
 count = 0
-num = abs(N)
-if num == 0:
-	count = 1
-else:
-	while num > 0:
-		num //= 10
-		count += 1
-print(f"Number of digits in {N} is {count}")
+
+
+while (N > 0):
+    N = N // 10   # remove last digit
+    count += 1
+
+print("Number of digits is : ", count)
+
 

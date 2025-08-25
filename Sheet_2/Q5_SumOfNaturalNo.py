@@ -1,13 +1,12 @@
-# Write a program to find the sum of all Natural numbers from 1 to N, where you have to take N as 
-# input from user 
+# Write a program to find the sum of all Natural numbers from 1-N,where you have to take N as input from user 
 # Input:- N = 10 
 # Output:- 55 
 
-N = int(input("Enter a positive integer N: "))
+N = int(input("Enter a positive integer: "))
 total = 0
 i = 1
-while i <= N:
+while (i <= N):
 	total += i
 	i += 1
-print(f"Sum of natural numbers from 1 to {N} is {total}")
+print("Sum of natural numbers is : ", total)
 

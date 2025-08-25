@@ -7,9 +7,9 @@
 # Explanation:- For A = 131, reverse(A) = reverse(131) = 131, which is the same as A. 
 
 
-text = input("Enter a word or number: ")
+A = input("Enter a word or number: ")
 
-if text == text[::-1]:
-    print(f"{text} is a palindrome.")
+if A == A[::-1]:
+    print("palindrome.")
 else:
-    print(f"{text} is not a palindrome.")
+    print("not a palindrome.")

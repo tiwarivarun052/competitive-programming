@@ -6,9 +6,8 @@
 
 N = int(input("Enter an integer N: "))
 total = 0
-num = abs(N)
-while num > 0:
-	total += num % 10
-	num //= 10
-print(f"Sum of digits of {N} is {total}")
+while (N > 0):
+	total = total + (N % 10)
+	N //= 10
+print("Sum of digits is : ", total)
 
