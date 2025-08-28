@@ -69,11 +69,48 @@
 #         print("*", end="")
 #     print()
 
-n = int(input("Enter: "))
+# n = int(input("Enter: "))
+# for i in range(1, n+1):
+#     for j in range(1, n+1):
+#         if(j<=n-i):
+#             print("*", end="")
+#         else:
+#             print("_", end="")
+#     print()
+
+# n = int(input("Enter:"))
+# for i in range(1, n+1):
+#     for j in range(n-i+1):
+#         print("*", end="")
+#     for j in range(2*i-2):
+#         print(" ", end="")
+#     for j in range(n-i+1):
+#         print("*", end="")
+#     print()
+
+n = int(input("Enter:"))
 for i in range(1, n+1):
-    for j in range(1, n+1):
-        if(j<=n-i):
-            print("*", end="")
-        else:
-            print("_", end="")
+    for j in range(i):
+        print("*", end="")
+    for j in range(2*(n-i)):
+        print(" ", end="")
+    for j in range(1,i+1):
+        print("*", end="")
     print()
+
+# n = int(input("Enter:"))
+# for i in range(1, n+1):
+#     for j in range(n-i+1):
+#         print("*", end="")
+#     for j in range(2*i-2):
+#         print(" ", end="")
+#     for j in range(n-i+1):
+#         print("*", end="")
+#     print()
+#     for j in range(i):
+#         print("*", end="")
+#     for j in range(2*(n-i)):
+#         print(" ", end="")
+#     for j in range(1,i+1):
+#         print("*", end="")
+#     print()
